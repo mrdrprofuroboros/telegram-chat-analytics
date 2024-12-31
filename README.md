@@ -23,8 +23,8 @@ source venv/bin/activate
 
 pip3 install -r requirements.txt
 
-# кладём в папку рядом со скриптом переписки result.json
+кладём в папку рядом со скриптом переписки result.json
 
 python3 telegram_analysis.py
 
-# изучаем friends_metrics_2024.xlsx
+изучаем friends_metrics_2024.xlsx
