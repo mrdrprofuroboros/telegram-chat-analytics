@@ -10,9 +10,11 @@ https://desktop.telegram.org/ — для того что бы сделать р�
 
 Settings -> Advanced -> Export Telegram data
 
-Снимаем все галочки кроме Personal chats.
+Снимаем все галочки кроме Personal chats / Bot chats / Private groups (все сообщения, не только свои).
 
 Формат — JSON
+
+это будет долгооооо
 
 # Запускаем скрипт
 
@@ -25,6 +27,10 @@ pip3 install -r requirements.txt
 
 кладём в папку рядом со скриптом переписки result.json
 
-python3 telegram_analysis.py
+заходим в spreadsheet.py / evolution.py и меняем MY_ID на ваш id
+
+python3 spreadsheet.py
+python3 evolution.py
 
 изучаем friends_metrics_2024.xlsx
+открываем chat_evolution.html и смотрим в динамике по месяцам
